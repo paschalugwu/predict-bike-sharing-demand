@@ -1,6 +1,6 @@
 # Predicting Bike Sharing Demand with AutoGluon
 
-**Introduction**
+## **Introduction**
 
 ### Project Overview
 
@@ -10,13 +10,13 @@ In the growing realm of urban mobility, bike-sharing systems play a crucial role
 
 My journey as an aspiring data scientist and engineer has been fueled by a passion for solving real-world problems through innovative technology. The increasing popularity of bike-sharing systems and their potential to mitigate urban transportation challenges inspired me to undertake this project. The idea of using data to enhance operational efficiency and promote eco-friendly transportation aligns with my career aspirations in data science and machine learning. This project not only showcases my technical skills but also reflects my commitment to making a positive impact through data-driven solutions.
 
-**Methodology**
+## **Methodology**
 
 ### Data Collection and Preparation
 
 The dataset for this project was sourced from a Kaggle competition on bike-sharing demand. It includes historical data on bike rentals, featuring various attributes such as datetime, weather conditions, and count of rentals. The data collection process involved downloading the dataset via the Kaggle API and unzipping the files for exploration. 
 
-**Challenges Faced:**
+## **Challenges Faced:**
 - **Handling Missing Values:** Ensured the dataset was complete by verifying that all entries were available for analysis.
 - **Feature Engineering:** Created additional features such as 'hour' extracted from the datetime column to capture time-specific patterns in bike demand.
 
@@ -27,7 +27,7 @@ The EDA provided valuable insights into the dataset:
 - **Patterns:** A clear trend was observed where bike demand peaks during certain hours of the day, particularly morning and evening rush hours.
 - **Anomalies:** Notable deviations in bike usage were linked to weather conditions, such as significant drops during heavy rainfall.
 
-**Modeling and Implementation**
+## **Modeling and Implementation**
 
 ### Model Selection
 
@@ -48,7 +48,7 @@ The model was implemented using AutoGluon’s Tabular Prediction feature:
     predictor = TabularPredictor(label='count', eval_metric='root_mean_squared_error').fit(train_data=train, time_limit=600, presets='best_quality')
     ```
 
-**Results and Evaluation**
+## **Results and Evaluation**
 
 ### Model Performance
 
@@ -64,7 +64,7 @@ The predictive model offers substantial benefits:
 - **Operational Efficiency:** Enhances scheduling and maintenance planning, leading to cost savings.
 - **User Satisfaction:** Ensures bike availability aligns with user demand, improving the overall user experience.
 
-**Challenges and Solutions**
+## **Challenges and Solutions**
 
 ### Obstacles Encountered
 
@@ -76,7 +76,7 @@ The predictive model offers substantial benefits:
 - **Data Cleaning:** Addressed missing values and standardized data formats.
 - **Feature Creation:** Generated new features like 'hour' to capture time-based patterns.
 
-**Conclusion and Future Work**
+## **Conclusion and Future Work**
 
 ### Project Summary
 
@@ -91,15 +91,15 @@ This project successfully developed a predictive model for bike-sharing demand u
 
 ### Personal Reflection
 
-**Skills and Growth**
+## **Skills and Growth**
 
 This project has deepened my understanding of automated machine learning, data preprocessing, and feature engineering. It has also honed my skills in handling real-world datasets and deriving actionable insights, which are crucial for my professional development as a data scientist.
 
-**Conclusion**
+## **Conclusion**
 
 I am enthusiastic about the potential of data science to drive impactful solutions in various industries. This project exemplifies my dedication to leveraging technology for solving complex problems. I am grateful for the support from mentors and peers and look forward to future opportunities to contribute to innovative projects.
 
-**Attachments and References**
+## **Attachments and References**
 
 ### Supporting Documents
 
